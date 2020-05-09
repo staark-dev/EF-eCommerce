@@ -4,8 +4,6 @@ namespace App\Http\Controllers;
 
 use App\User;
 use Illuminate\Http\Request;
-use Illuminate\Support\Env;
-use Illuminate\Support\Facades\Artisan;
 use Illuminate\Support\Facades\Config;
 
 class Install extends Controller
@@ -23,12 +21,8 @@ class Install extends Controller
     public function index(Request $request)
     {
         $view = null;
-        Artisan::call('cache:clear');
-        Artisan::call('config:clear');
-
-        Config::set([
-            'in_app' => 'app',
-        ]);
+        \Artisan::call('cache:clear');
+        \Artisan::call('config:clear');
 
         switch($request->steep)
         {

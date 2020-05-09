@@ -27,7 +27,7 @@ return [
     */
 
     'env' => env('APP_ENV', 'production'),
-
+    'installed' => env('APP_INSTALLED', false),
     /*
     |--------------------------------------------------------------------------
     | Application Debug Mode
