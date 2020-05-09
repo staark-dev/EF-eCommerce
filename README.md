@@ -1,5 +1,7 @@
-# EF-eCommerce
-![Logo](https://i.imgur.com/TQKSDSS.png)
+<p align="center">
+    <img src="https://i.imgur.com/TQKSDSS.png" />
+</p>
+
 
 # Security Policy
 
