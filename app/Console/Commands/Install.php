@@ -4,7 +4,6 @@ namespace App\Console\Commands;
 
 use App\User;
 use Illuminate\Console\Command;
-use Illuminate\Support\Facades\Artisan;
 
 class Install extends Command
 {
@@ -56,7 +55,7 @@ class Install extends Command
     {
         if($this->confirm('Do you wish to continue?')):
             $this->info("Building project!");
-            Artisan::command('key:generate');
+            \Artisan::call('key:generate');
             $this->set_env('app_installed', 'true');
         endif;
     }
