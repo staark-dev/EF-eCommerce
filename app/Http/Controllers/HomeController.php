@@ -25,4 +25,16 @@ class HomeController extends Controller
     {
         return view('home');
     }
+
+    public static function setenv($key, $value)
+    {
+        // $env = file_get_contents();
+        $file = file_get_contents(base_path('.env'));
+        echo "Default text: <br>";
+        print_r($file);
+        $oldValue = strtok($file, "{$key}=");
+        $text = str_replace("{$key}={$oldValue}", "{$key}={$value}\r\n", $file);
+        echo "<br> <br>Modified text: <br>";
+        print_r($text);
+    }
 }
