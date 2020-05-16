@@ -3,10 +3,14 @@
 use App\Http\Controllers\HomeController;
 use Illuminate\Support\Facades\Route;
 
-Route::get('/', function () {
+/*Route::get('/', function () {
     return (config('app.installed') == true)
     ? view('welcome')
     : redirect()->route('install.index', ['steep' => 'site']);
+});*/
+
+Route::get('/', function () {
+    return view('welcome');
 });
 
 Route::group(['as' => 'install.', 'prefix' => 'install', 'namespace' => "Install"], function () {

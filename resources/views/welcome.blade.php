@@ -75,31 +75,28 @@
                         <div class="collapse navbar-collapse" id="navbarSupportedContent" style="margin-left: 200px">
                           <ul class="navbar-nav mr-auto">
                             <li class="nav-item active">
-                            <a class="nav-link" href="#"><i class="fa fa-home" style="font-size: 20px;color:#A9A9A9"></i>Home <span class="sr-only">(current)</span></a>
+                            <a class="nav-link" href="{{ url('/') }}"><i class="fa fa-home" style="font-size: 20px;color:#A9A9A9"></i>Home <span class="sr-only">(current)</span></a>
                             </li>
                             <li class="nav-item">
                               <a class="nav-link" href="">About us</a>
                             </li>
                             <li class="nav-item dropdown">
                               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                Help
+                                Info
                               </a>
                               <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <a class="dropdown-item" href="#">Install</a>
-                                <a class="dropdown-item" href="#">Another action</a>
+                                <a class="dropdown-item" href="{{ route('install.post', ['steep' => 'site']) }}">Install app</a>
+                                <a class="dropdown-item" href="#">What is Ecommerce</a>
                                 <div class="dropdown-divider"></div>
                                 <a class="dropdown-item" href="#">Something else here</a>
                               </div>
                             </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Contact</a>
-                              </li>
                               <li class="nav-item" style="float: rigth">
                                 <a class="nav-link" href="#">Reviews</a>
                               </li>
                           </ul>
-                          <a href="{{ __('Login') }}" style="margin-right: 10px; text-decoration: none;color:grey"><i class="fa fa-address-card" style="font-size:18px;margin-right:5px"></i></i>Login</a>
-                         <a href="{{ __('Register') }}" style=" text-decoration: none;color:grey;margin-right:250px"><i class="fa fa-user" style="font-size:18px"></i> Register</a>
+                          <a href="{{ route('login') }}" style="margin-right: 10px; text-decoration: none;color:grey"><i class="fa fa-address-card" style="font-size:18px;margin-right:5px"></i></i>Login</a>
+                         <a href="{{ route('register') }}" style=" text-decoration: none;color:grey;margin-right:250px"><i class="fa fa-user" style="font-size:18px"></i> Register</a>
                         </div>
                       </nav>
                 </div>
