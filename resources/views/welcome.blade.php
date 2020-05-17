@@ -73,6 +73,11 @@
            #footertitle{
              color: green;
            }
+           .newsletter{
+             margin-right: 10%;
+             margin-left:10%;
+             background: azure
+           }
         </style>
     </head>
     <body>
@@ -99,7 +104,7 @@
                             <a class="nav-link" href="{{ url('/') }}"><i class="fa fa-home" style="font-size: 20px;color:#A9A9A9"></i>Home <span class="sr-only">(current)</span></a>
                             </li>
                             <li class="nav-item">
-                              <a class="nav-link" href="">About us</a>
+                            <a class="nav-link" href="#">About us</a>
                             </li>
                             <li class="nav-item dropdown">
                               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -113,7 +118,7 @@
                               </div>
                             </li>
                               <li class="nav-item" style="float: rigth">
-                                <a class="nav-link" href="#">Reviews</a>
+                                <a class="nav-link" href="#">Contact</a>
                               </li>
                           </ul>
                           <a href="{{ route('login') }}" style="margin-right: 10px; text-decoration: none;color:grey"><i class="fa fa-address-card" style="font-size:18px;margin-right:5px"></i></i>Login</a>
@@ -264,6 +269,26 @@
                   <button class="btn btn-outline-danger">Adauga in cos</button>
                   </div>
                 </div>
+              </div>
+
+                <br>
+                <br>
+                <br>
+
+              <div class="newsletter">
+                <div class="media">
+                  <img src="data:image/png;base64,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" class="align-self-center mr-3" alt="...">
+                  <div class="media-body" style="padding-top: 15px">
+                    <h4 class="mt-0">Aboneaza-te la newsletter ca sa primesti cele mai noi oferte si promotii !</h4>
+                    <small>Prin abonarea la newsletter-ul eMAG confirm că am peste 16 ani.</small>
+                   <br>
+                   <br>
+                    <input type="text" style="border-radius:10px;outline:none;padding:5px;width:350px;border:0.5px solid #FFF0F5" placeholder="Name">  
+                    <input type="text" style="border-radius:10px;outline:none;padding:5px;margin-left:20px;width:350px;border:0.5px solid #FFF0F5" placeholder="Email">  
+                    <button class="btn btn-danger" style="margin-left: 50px;">Aboneaza-te</button>
+                  </div>
+                </div>  
+
               </div>
               <br>
               <br>
