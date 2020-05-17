@@ -37,21 +37,42 @@
                 border-top:1px solid gainsboro;
            }
            .content{
-            margin-left:10%;
-            margin-right:10%;
+            margin-left:12%;
+            margin-right:12%;
             margin-top:15px;
             position: relative;
            }
            .card{
                border: none;
+               display: block;
            }
            .card:hover{
-                box-shadow: 0 0 2px 1px gainsboro;
+            box-shadow: 0 0 11px rgba(33,33,33,.2); 
+           transition: box-shadow 0.4s ease-in-out;
+         
            }
            .footer{
-            text-align:center;
+             padding-top: 20px;
+             padding-bottom: 20px;
+            margin-left: 12%;
+            margin-right: 12%;
            }
-
+           .bottom{
+             text-align: center;
+           }
+           .card-deck{
+             margin-left: 10%;
+             margin-right: 10%
+           }
+          #textproducts,.card-title{
+             font-weight: bold
+           }
+          #textproducts{
+             color:lightslategrey
+           }
+           #footertitle{
+             color: green;
+           }
         </style>
     </head>
     <body>
@@ -153,15 +174,107 @@
                 </div>
               </div>
               </div>
+              <br>
+              <br>
+              <br>
+              <!-- Shop products -->
+              <div class="card-deck">
+                <div class="card"  style="text-align: center;" id="ex">
+                  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSphXbLjub2E8uA50ngjcDw2_E7WEQWlzW-jZSGINv2rc8x4E6A&usqp=CAU" id="ex" style="padding:10px" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Product title</h4>
+                    <p class="card-text" id="textproducts">226 Lei</p>
+                  <button class="btn btn-outline-danger">Adauga in cos</button>
+                  </div>
+                </div>
+                <div class="card"  style="text-align: center;" id="ex">
+                  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSphXbLjub2E8uA50ngjcDw2_E7WEQWlzW-jZSGINv2rc8x4E6A&usqp=CAU" style="padding:10px" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Product title</h4>
+                    <p class="card-text" id="textproducts">226 Lei</p>
+                  <button class="btn btn-outline-danger">Adauga in cos</button>
+                  </div>
+                </div>
+                <div class="card"  style="text-align: center;"id="ex">
+                  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSphXbLjub2E8uA50ngjcDw2_E7WEQWlzW-jZSGINv2rc8x4E6A&usqp=CAU" style="padding:10px" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Product title</h4>
+                    <p class="card-text" id="textproducts">226 Lei</p>
+                  <button class="btn btn-outline-danger">Adauga in cos</button>
+                  </div>
+                </div>
+                <div class="card"  style="text-align: center;"id="ex">
+                  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSphXbLjub2E8uA50ngjcDw2_E7WEQWlzW-jZSGINv2rc8x4E6A&usqp=CAU" style="padding:10px" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Product title</h4>
+                    <p class="card-text" id="textproducts">226 Lei</p>
+                  <button class="btn btn-outline-danger">Adauga in cos</button>
+                  </div>
+                </div>
+                <div class="card"  style="text-align: center;"id="ex">
+                  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSphXbLjub2E8uA50ngjcDw2_E7WEQWlzW-jZSGINv2rc8x4E6A&usqp=CAU" style="padding:10px" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Product title</h4>
+                    <p class="card-text" id="textproducts">226 Lei</p>
+                  <button class="btn btn-outline-danger">Adauga in cos</button>
+                  </div>
+                </div>
+              </div>
+                <br>
 
+
+              <div class="card-deck" style="border-top: 1px solid gainsboro;padding-top:20px">
+                <div class="card"  style="text-align: center;"id="ex">
+                  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSphXbLjub2E8uA50ngjcDw2_E7WEQWlzW-jZSGINv2rc8x4E6A&usqp=CAU" style="padding:10px" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Product title</h4>
+                    <p class="card-text" id="textproducts">226 Lei</p>
+                  <button class="btn btn-outline-danger">Adauga in cos</button>
+                  </div>
+                </div>
+                <div class="card"  style="text-align: center;"id="ex">
+                  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSphXbLjub2E8uA50ngjcDw2_E7WEQWlzW-jZSGINv2rc8x4E6A&usqp=CAU" style="padding:10px" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Product title</h4>
+                    <p class="card-text" id="textproducts">226 Lei</p>
+                  <button class="btn btn-outline-danger">Adauga in cos</button>
+                  </div>
+                </div>
+                <div class="card"  style="text-align: center;"id="ex">
+                  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSphXbLjub2E8uA50ngjcDw2_E7WEQWlzW-jZSGINv2rc8x4E6A&usqp=CAU" style="padding:10px" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Product title</h4>
+                    <p class="card-text" id="textproducts">226 Lei</p>
+                  <button class="btn btn-outline-danger">Adauga in cos</button>
+                  </div>
+                </div>
+                <div class="card"  style="text-align: center;"id="ex">
+                  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSphXbLjub2E8uA50ngjcDw2_E7WEQWlzW-jZSGINv2rc8x4E6A&usqp=CAU" style="padding:10px" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Product title</h4>
+                    <p class="card-text" id="textproducts">226 Lei</p>
+                  <button class="btn btn-outline-danger">Adauga in cos</button>
+                  </div>
+                </div>
+                <div class="card"  style="text-align: center;"id="ex">
+                  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSphXbLjub2E8uA50ngjcDw2_E7WEQWlzW-jZSGINv2rc8x4E6A&usqp=CAU" style="padding:10px" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Product title</h4>
+                    <p class="card-text" id="textproducts">226 Lei</p>
+                  <button class="btn btn-outline-danger">Adauga in cos</button>
+                  </div>
+                </div>
+              </div>
+              <br>
               <br>
               <br>
               <br>
               <br>
               <!--Footer-->
-              <div class="footer" id="bottom">
-            <p>All rights reserved</p>  
+              <div class="bottom">
+              <div class="footer" id="bottom"> 
+                  <p>@All rights reserved@ Email: shoppieseTv@gmail.com </p>
             </div>
-
+            </div>
         </body>
 </html>
