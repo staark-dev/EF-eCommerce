@@ -32,6 +32,7 @@
                 background: white;
                 margin-left:10%;
                 margin-right: 10%;
+                box-shadow: 0 0 11px rgba(33,33,33,.2); 
             }
            .startcontent{
                 border-top:1px solid gainsboro;
@@ -133,12 +134,15 @@
                     <h1 >Hello, welcome to eCommerce!</h1>
                     <hr class="my-4">
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati praesentium aspernatur eos aliquam suscipit odit molestias architecto ea cupiditate recusandae inventore quod laborum omnis doloribus, est provident at qui vel?</p>
-                    <a class="btn btn-outline-danger btn-lg" href="{{ route('install.post', ['steep' => 'site']) }}" role="button">Install app</a>
+                    <a class="btn btn-outline-danger btn-lg shadow-none" href="{{ route('install.post', ['steep' => 'site']) }}" role="button">Install app</a>
                 </div>
             </div>
-
+              <br>
+              <br>
            <div class="content">
                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit omnis a quis corrupti dicta, atque enim nihil voluptate deleniti distinctio. Iure amet consequuntur dolor sapiente accusantium ea debitis, maxime pariatur. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor quos est accusamus eius neque harum! Magnam nisi fuga voluptate sed. Nisi, doloremque voluptas numquam iure recusandae labore dolore quisquam laboriosam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure ipsa cumque maxime vel. Excepturi animi nesciunt architecto, ea voluptatum tenetur temporibus est assumenda ad maxime labore fugit dignissimos ducimus cupiditate! Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique quidem, minima ad ab doloremque cupiditate fuga inventore consequuntur distinctio at maiores ullam quia rerum quis odio. Corrupti, dignissimos? Repudiandae, officia.</p>
+              <br>
+              
                <div class="card mb-3" style="width: 100%;">
                 <div class="row no-gutters">
                   <div class="col-md-4">
@@ -189,7 +193,7 @@
                   <div class="card-body">
                     <h5 class="card-title">Product title</h4>
                     <p class="card-text" id="textproducts">226 Lei</p>
-                  <button class="btn btn-outline-danger">Adauga in cos</button>
+                  <button class="btn btn-outline-danger shadow-none">Adauga in cos</button>
                   </div>
                 </div>
                 <div class="card"  style="text-align: center;" id="ex">
@@ -197,7 +201,7 @@
                   <div class="card-body">
                     <h5 class="card-title">Product title</h4>
                     <p class="card-text" id="textproducts">226 Lei</p>
-                  <button class="btn btn-outline-danger">Adauga in cos</button>
+                  <button class="btn btn-outline-danger shadow-none">Adauga in cos</button>
                   </div>
                 </div>
                 <div class="card"  style="text-align: center;"id="ex">
@@ -205,7 +209,7 @@
                   <div class="card-body">
                     <h5 class="card-title">Product title</h4>
                     <p class="card-text" id="textproducts">226 Lei</p>
-                  <button class="btn btn-outline-danger">Adauga in cos</button>
+                  <button class="btn btn-outline-danger shadow-none">Adauga in cos</button>
                   </div>
                 </div>
                 <div class="card"  style="text-align: center;"id="ex">
@@ -213,7 +217,7 @@
                   <div class="card-body">
                     <h5 class="card-title">Product title</h4>
                     <p class="card-text" id="textproducts">226 Lei</p>
-                  <button class="btn btn-outline-danger">Adauga in cos</button>
+                  <button class="btn btn-outline-danger shadow-none">Adauga in cos</button>
                   </div>
                 </div>
                 <div class="card"  style="text-align: center;"id="ex">
@@ -221,7 +225,7 @@
                   <div class="card-body">
                     <h5 class="card-title">Product title</h4>
                     <p class="card-text" id="textproducts">226 Lei</p>
-                  <button class="btn btn-outline-danger">Adauga in cos</button>
+                  <button class="btn btn-outline-danger shadow-none">Adauga in cos</button>
                   </div>
                 </div>
               </div>
@@ -234,7 +238,7 @@
                   <div class="card-body">
                     <h5 class="card-title">Product title</h4>
                     <p class="card-text" id="textproducts">226 Lei</p>
-                  <button class="btn btn-outline-danger">Adauga in cos</button>
+                  <button class="btn btn-outline-danger shadow-none">Adauga in cos</button>
                   </div>
                 </div>
                 <div class="card"  style="text-align: center;"id="ex">
@@ -242,7 +246,7 @@
                   <div class="card-body">
                     <h5 class="card-title">Product title</h4>
                     <p class="card-text" id="textproducts">226 Lei</p>
-                  <button class="btn btn-outline-danger">Adauga in cos</button>
+                  <button class="btn btn-outline-danger shadow-none">Adauga in cos</button>
                   </div>
                 </div>
                 <div class="card"  style="text-align: center;"id="ex">
@@ -250,7 +254,7 @@
                   <div class="card-body">
                     <h5 class="card-title">Product title</h4>
                     <p class="card-text" id="textproducts">226 Lei</p>
-                  <button class="btn btn-outline-danger">Adauga in cos</button>
+                  <button class="btn btn-outline-danger shadow-none">Adauga in cos</button>
                   </div>
                 </div>
                 <div class="card"  style="text-align: center;"id="ex">
@@ -258,7 +262,7 @@
                   <div class="card-body">
                     <h5 class="card-title">Product title</h4>
                     <p class="card-text" id="textproducts">226 Lei</p>
-                  <button class="btn btn-outline-danger">Adauga in cos</button>
+                  <button class="btn btn-outline-danger shadow-none">Adauga in cos</button>
                   </div>
                 </div>
                 <div class="card"  style="text-align: center;"id="ex">
@@ -266,7 +270,7 @@
                   <div class="card-body">
                     <h5 class="card-title">Product title</h4>
                     <p class="card-text" id="textproducts">226 Lei</p>
-                  <button class="btn btn-outline-danger">Adauga in cos</button>
+                  <button class="btn btn-outline-danger shadow-none">Adauga in cos</button>
                   </div>
                 </div>
               </div>
@@ -285,7 +289,7 @@
                    <br>
                     <input type="text" style="border-radius:10px;outline:none;padding:5px;width:350px;border:0.5px solid #FFF0F5" placeholder="Name">  
                     <input type="text" style="border-radius:10px;outline:none;padding:5px;margin-left:20px;width:350px;border:0.5px solid #FFF0F5" placeholder="Email">  
-                    <button class="btn btn-danger" style="margin-left: 50px;">Aboneaza-te</button>
+                    <button class="btn btn-danger shadow-none" style="margin-left: 50px;">Aboneaza-te</button>
                   </div>
                 </div>  
 

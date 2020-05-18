@@ -81,3 +81,9 @@
 </div>
 </body>
 @endsection
+
+<style scoped>
+    body{
+      background-image: linear-gradient(-90deg, lightblue, white);
+    }
+</style>
