@@ -1,4 +1,4 @@
-@extends('layouts.welcome')
+@extends('welcome')
 
 @section( 'content')
     <div>
