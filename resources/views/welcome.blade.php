@@ -86,7 +86,7 @@
         <div class="navbar navbar-expand-lg">
                 <div class="container" style="padding-bottom: 10px">
                         <div class="header" >
-                        <a href="#"> <img src="http://127.0.0.1:8000/logo.png" alt="" style="text-align: center;margin-left:100%"></a>
+                        <a href="{{ route('index') }}"> <img src="http://127.0.0.1:8000/logo.png" alt="" style="text-align: center;margin-left:100%"></a>
                     </div>
                 </div>
             </div>
@@ -105,7 +105,7 @@
                             <a class="nav-link" href="{{ url('/') }}"><i class="fa fa-home" style="font-size: 20px;color:#A9A9A9"></i>Home <span class="sr-only">(current)</span></a>
                             </li>
                             <li class="nav-item">
-                            <a class="nav-link" href="#">About us</a>
+                            <a class="nav-link" href="{{ route('about-us') }}">About us</a>
                             </li>
                             <li class="nav-item dropdown">
                               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -119,7 +119,7 @@
                               </div>
                             </li>
                               <li class="nav-item" style="float: rigth">
-                                <a class="nav-link" href="#">Contact</a>
+                                <a class="nav-link" href="{{ route('contact') }}">Contact</a>
                               </li>
                           </ul>
                           <a href="{{ route('login') }}" style="margin-right: 10px; text-decoration: none;color:grey"><i class="fa fa-address-card" style="font-size:18px;margin-right:5px"></i></i>Login</a>
