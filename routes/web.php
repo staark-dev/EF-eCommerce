@@ -22,4 +22,5 @@ Route::get('/env', function() {
 Route::group(['middleware' => 'guest', 'namespace' => 'Store'], function () {
     Route::get('/aboutus', 'MainController@aboutus')->name('about-us');
     Route::get('/contact', 'MainController@contact')->name('contact');
+    Route::get('/store', 'MainController@index')->name('store');
 });
